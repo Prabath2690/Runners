@@ -29,7 +29,7 @@ jobs:
     runs-on: PrabathRunner
     steps:
       - name: download git code 
-        run: git clone https://github.com/Shubham-Bawa/shubham-test.git 
+        run: echo "hello"
       - name: list of files 
         run: pwd && ls   
   demo:
@@ -37,7 +37,7 @@ jobs:
     needs: [build, test]
     steps:
       - name: download git code 
-        run: git clone https://github.com/Shubham-Bawa/shubham-test.git 
+        run: echo "hello"t 
       - name: list of files 
         run: pwd && ls   
   demo2:
@@ -45,6 +45,6 @@ jobs:
     needs: [build]
     steps:
       - name: download git code 
-        run: git clone https://github.com/Shubham-Bawa/shubham-test.git 
+        run: echo "hello"
       - name: list of files 
         run: pwd && ls   
