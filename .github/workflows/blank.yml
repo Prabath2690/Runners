@@ -31,7 +31,7 @@ jobs:
       - name: download git code 
         run: echo "hello"
       - name: list of files 
-        run: pwd && ls   
+        run: echo "hello" 
   demo:
     runs-on: PrabathRunner
     needs: [build, test]
@@ -39,7 +39,7 @@ jobs:
       - name: download git code 
         run: echo "hello"t 
       - name: list of files 
-        run: pwd && ls   
+        run: echo "hello"   
   demo2:
     runs-on: PrabathRunner
     needs: [build]
