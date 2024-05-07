@@ -47,4 +47,4 @@ jobs:
       - name: download git code 
         run: echo "hello"
       - name: list of files 
-        run: pwd && ls   
+        run: echo "hello"
